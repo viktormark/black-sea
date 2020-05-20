@@ -1,3 +1,46 @@
 body{
-    color: red;
+   
+   padding: 0px;
+   margin: 0px;
+}
+@font-face{
+    font-family: "HelveticaLT";
+    src: url(../black-sea/fonts/lte50052.ttf);
+}
+
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #4b95a1;
+   
+}
+
+.flex-header{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex-header span{
+    font-family: 'Cherry Swash', cursive;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav li a{
+    
+    font-family: "HelveticaLT";
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
