@@ -37,6 +37,7 @@ header{
     width: 100%;
     top: 0px;
     left: 0px;
+    z-index: 5;
    
 }
 
@@ -87,7 +88,8 @@ header{
     background-repeat: no-repeat; 
 background-attachment: fixed;
 height: 477px;
-background-position: 50% 50%;
+background-position: 50% 81%;
+background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -178,4 +180,95 @@ margin-top: 87px;
     display: flex;
    width: 421px;
     justify-content: space-between;
+}
+
+
+.third{
+    background-color: #00d089;
+    height: 468px;
+    padding: 92px 1px 1px 68px;
+    box-sizing: border-box;
+}
+
+.third-content{
+    max-width: 906px;
+}
+
+.text{
+    font-family: "HelveticaLTStd-Light";
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    padding-top: 37px;
+}
+
+.third-pic{
+    display: flex;
+    max-width: 302px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 117px;
+}
+
+.dhavan span{
+    display: block;
+    font-family: "HelveticaLTStd-bold";
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.map{
+    background-image: url(img/Layer4.png);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     background-position: 50% 81%;
+     display: flex;
+     align-items: center;
+    
+}
+
+.map-circle{
+    width: 422px;
+    height: 422px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.9;
+    margin: 0 auto;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+}
+
+footer{
+    height: 40px;
+    background-color: #00d089;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.footer p{
+    font-family: "HelveticaLT";
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+.forma{
+    height: 500px;
+    width: 500px;
+}
+.name{
+    
+}
+.email{
+    
+}
+.shape5{
+    display: none;
 }
