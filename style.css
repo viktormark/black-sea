@@ -265,7 +265,7 @@ footer{
 
 
 .forma{
-    height: 235px;
+    height: 195px;
 }
 .name{
     padding: 9px 78px 9px 16px;
@@ -432,5 +432,37 @@ transform: translate(-50%, 0);
     height: 188px;
   
 }
+
+}
+
+
+@media (max-width: 340px){
+
+    .flex-header span {
+        font-size: 29px;
+        margin: 0;
+    }
+
+    .fon p {
+        font-size: 24px;
+        max-width: 243px;
+        line-height: 42px;
+    }
+
+    .fon-text a {
+        font-size: 24px;
+        border-radius: 6px;
+        padding: 3px 38px 3px 38px;
+        text-align: center;
+    }
+    .fon {
+       
+        background-attachment: scroll;
+        height: 404px;
+        margin-top: 109px;
+    }
+
+
+
 
 }
