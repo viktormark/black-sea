@@ -382,7 +382,7 @@ transform: translate(-50%, 0);
 
 
 
-@media (max-width: 621px){
+@media (max-width: 524px){
 
 .nav{
     margin: 0 auto;
@@ -436,11 +436,11 @@ transform: translate(-50%, 0);
 }
 
 
-@media (max-width: 340px){
+@media (max-width: 405px){
 
     .flex-header span {
         font-size: 29px;
-        margin: 0;
+        margin-left: 34px;
     }
 
     .fon p {
@@ -462,7 +462,53 @@ transform: translate(-50%, 0);
         margin-top: 109px;
     }
 
+    .second-p {
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 300px;
+    }
+    .second-lorem {
+      
+        max-width: 290px;
+    }
 
+    .map-circle {
+        width: 270px;
+        height: 270px;
+        opacity: 0.9;
+        
+    }
+
+    .forma {
+        height: 182px;
+        margin-left: 3px;
+    }
+
+    .name {
+        padding: 9px 0px 9px 13px;
+       
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+    .email {
+        padding: 9px 0px 9px 13px;
+        
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+
+    .massage {
+        padding: 8px 21px 9px 13px;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        resize: none;
+    }
+    header {
+        
+        
+        
+        
+    }
 
 
 }
