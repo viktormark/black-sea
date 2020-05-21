@@ -238,6 +238,9 @@ margin-top: 87px;
     opacity: 0.9;
     margin: 0 auto;
     box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
@@ -260,15 +263,45 @@ footer{
 
 
 .forma{
-    height: 500px;
-    width: 500px;
+    height: 235px;
 }
 .name{
-    
+    padding: 9px 78px 9px 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-bottom: 5px;
 }
 .email{
-    
+    padding: 9px 78px 9px 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-bottom: 5px;
+
+
+}
+
+
+
+.email:invalid{
+    background-color: rgba(255, 0, 0, 0.2)
+
+}
+
+.massage{
+    padding: 9px 90px 9px 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-bottom: 5px;
+   resize: none;
 }
 .shape5{
     display: none;
+}
+
+.send{
+    border: none;
+    padding: 10px;
+    position: relative;
+left: 50%;
+transform: translate(-50%, 0);
 }
