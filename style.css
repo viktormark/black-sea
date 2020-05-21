@@ -436,7 +436,7 @@ transform: translate(-50%, 0);
 }
 
 
-@media (max-width: 405px){
+@media (max-width: 420px){
 
     .flex-header span {
         font-size: 29px;
@@ -509,13 +509,3 @@ transform: translate(-50%, 0);
 
 }
 
-
-@media (max-width: 361px){
-
-    .flex-header span {
-        font-size: 28px;
-        margin-left: 6px;
-    }
-
-
-}
