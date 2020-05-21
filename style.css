@@ -42,7 +42,7 @@ header{
 }
 
 .flex-header{
-   
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,17 +54,19 @@ header{
     font-family: 'Cherry Swash', cursive;
     font-size: 40px;
     color: #ffffff;
+    white-space:nowrap
 }
 
 .nav{
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     padding: 6px 13px 0px 0px;
 }
 .nav li a{
     
     font-family: "HelveticaLT";
-    padding: 5px;
+   
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -304,4 +306,131 @@ footer{
     position: relative;
 left: 50%;
 transform: translate(-50%, 0);
+}
+
+
+@media (max-width: 621px){
+   
+    .nav{
+        width: 223px;
+    }
+   
+    .second-lorem {
+        
+        font-size: 10px;
+        line-height: 15px;
+        max-width: 400px;
+        
+    }
+
+    .second-p {
+        
+        font-size: 24px;
+        line-height: 38px; 
+        max-width: 500px;
+        
+    }
+
+
+    .fon p {
+        
+        font-size: 32px;
+        max-width: 460px;
+        line-height: 43px;
+        
+    }
+
+    .fon-text a {
+      
+       
+        font-size: 30px;
+        border-radius: 6px;
+        padding: 3px 38px 3px 38px;
+        
+        text-align: center;
+
+    }
+
+    .fon-text {
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    .second-icons {
+        
+        width: 200px;
+        
+    }
+
+    .text {
+        
+        font-size: 14px;
+        line-height: 25px;
+        padding-top: 22px;
+    }
+
+
+    .third-pic {
+        margin: 0;
+      
+    }
+
+    .nav li{
+        padding: 5px;
+    }
+
+}
+
+
+
+@media (max-width: 621px){
+
+.nav{
+    margin: 0 auto;
+}
+
+.flex-header span {
+    
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+
+.text {
+    font-size: 12px;
+    line-height: 21px;
+    padding-top: 22px;
+    margin-right: 53px;
+}
+
+
+.third-pic > img {
+    width: 35%;
+    height: 35%;
+}
+
+.dhavan img{
+    width: 50%;
+}
+
+.dhavan span {
+    font-size: 20px;
+}
+
+.third-pic {
+  
+    max-width: 247px;
+}
+
+.map-circle {
+    width: 350px;
+    height: 350px;
+    opacity: 0.8;
+   
+}
+
+.forma {
+    height: 188px;
+  
+}
+
 }
