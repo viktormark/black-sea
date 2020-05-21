@@ -440,7 +440,9 @@ transform: translate(-50%, 0);
 
     .flex-header span {
         font-size: 29px;
-        margin-left: 34px;
+       margin-left: 0px;
+           
+     
     }
 
     .fon p {
